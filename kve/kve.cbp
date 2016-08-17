@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="kve" />
+		<Option makefile_is_custom="1" />
+		<Option execution_dir="C:/root/volume/KVEditor/" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../kveditor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="./kve" prefix_auto="1" extension_auto="1" />
+				<Option object_output="./" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="all">
+				<Option output="../kveditor" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../KVEditor" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../DBHandler.cpp">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="../DBHandler.h">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="../UIProxy.cpp">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="../UIProxy.h">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="../gui.cpp">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="../gui.h">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="../main.cpp">
+			<Option target="all" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

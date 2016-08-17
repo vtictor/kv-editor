@@ -1,0 +1,4 @@
+*.db
+*.exe
+*.res
+*..db_unqlite_journal
